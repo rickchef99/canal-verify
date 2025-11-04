@@ -362,7 +362,7 @@
           }
         });
         
-        window.open(`comprovante.html?${params.toString()}`, '_blank');
+        window.open(`/comprovante/?${params.toString()}`, '_blank');
       }
 
       // Função para finalizar processo
@@ -388,7 +388,7 @@
           }
           
           // Construir URL com dados
-          let targetURL = 'finalizacao/index.html';
+          let targetURL = '/finalizacao/index.html';
           
           if (userData) {
             const params = new URLSearchParams();
@@ -418,7 +418,7 @@
           // Redirecionar para finalizacao
           if (typeof window.addUTMsToURL === 'function' && !userData) {
             // Usar função de navegação com UTMs se disponível (sem dados)
-            window.location.href = window.addUTMsToURL('finalizacao/index.html');
+            window.location.href = window.addUTMsToURL('/finalizacao/index.html');
           } else {
             // Usar URL com dados ou fallback simples
             window.location.href = targetURL;
