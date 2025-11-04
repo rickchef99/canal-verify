@@ -12,16 +12,16 @@ const totais = [
 ];
 
 const links = [
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
-    'https://pay.psy-pag.site/YEwR3AVPQ7jZdKy',
+    "https://pay.psy-pag.site/nWrxGWAJLYX3654",
+    "https://pay.psy-pag.site/YEwR3AVPQ7jZdKy",
+    "https://pay.psy-pag.site/lDW0ZaJDm5dGN7E",
+    "https://pay.psy-pag.site/KV603kobmRW3w8y",
+    "https://pay.psy-pag.site/QqyLgqo9ma0ZvkE",
+    "https://pay.psy-pag.site/a6pVgd20mMkZk7B",
+    "https://pay.psy-pag.site/PVYB34eWyw1ZKzk",
+    "https://pay.psy-pag.site/YL9jZDWbLPl3p4q",
+    "https://pay.psy-pag.site/nOzxZoo5m2OZJ07",
+    "https://pay.psy-pag.site/v7R0gloymJVGVr9",
 ]
 
 function gerarLinhas(totalIndex) {
