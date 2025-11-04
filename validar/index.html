@@ -801,8 +801,8 @@
 
       // Função para redirecionar para validacao
       function redirectToValidacao() {
-        console.log('🚀 Redirecionando para validação...');
-        
+        window.UserDataManager.setupComprovante()
+        setTimeout(() => {
         // Tentar obter dados da URL atual
         const urlParams = new URLSearchParams(window.location.search);
         let userData = null;
@@ -865,6 +865,7 @@
         } else {
           window.location.href = targetURL;
         }
+        }, 1000);
       }
 
       // Função para controlar o dropdown do usuário
